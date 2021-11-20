@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
+import "./css/bootstrap.min.css";
+import Foto from "./Foto.jpg";
 import {
   BrowserRouter as Router,
   Route,
@@ -8,8 +10,7 @@ import {
   withRouter,
   NavLink,
 } from "react-router-dom";
-import "./css/bootstrap.min.css";
-import Foto from "./Foto.jpg";
+
 
 class App extends Component {
   constructor() {
